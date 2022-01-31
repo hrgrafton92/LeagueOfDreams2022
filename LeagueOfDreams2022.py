@@ -6,18 +6,18 @@ import altair as alt
 
 
 recap = pd.read_csv("recap.csv")
-weekly_record = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/weekly_record.csv")
-clint2 = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/clint2.csv")
-spencer = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/spencer.csv")
-jeff = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/jeff.csv")
-collin3 = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/collin3.csv")
-harley = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/harley.csv")
-bob4 = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/bob4.csv")
-caleb = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/caleb.csv")
-kyle = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/kyle.csv")
-tripp = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/tripp.csv")
-batter = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/batter2.csv")
-pitcher = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/pitcher2.csv")
+weekly_record = pd.read_csv("weekly_record.csv")
+clint2 = pd.read_csv("clint2.csv")
+spencer = pd.read_csv("spencer.csv")
+jeff = pd.read_csv("jeff.csv")
+collin3 = pd.read_csv("collin3.csv")
+harley = pd.read_csv("harley.csv")
+bob4 = pd.read_csv("bob4.csv")
+caleb = pd.read_csv("caleb.csv")
+kyle = pd.read_csv("kyle.csv")
+tripp = pd.read_csv("tripp.csv")
+batter = pd.read_csv("batter2.csv")
+pitcher = pd.read_csv("pitcher2.csv")
 
 # Intro text
 
