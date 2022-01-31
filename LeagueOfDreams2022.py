@@ -118,7 +118,7 @@ st.pyplot()
 #jeff graph
 
 """
-# #8 Jeff Harley - Sox it to Ya! (JEFF)
+# #8 Jeff Harter - Sox it to Ya! (JEFF)
 
 Superlative = Howie Mendel. "Let's Make a Deal."
 
@@ -333,7 +333,7 @@ st.pyplot()
 Superlative = The Wunderkind. "People keep calling me a Wunderkind... I don't even know what that means. I mean, I know what it means, it means very successful for your age, so I guess it makes sense, but... it's a weird word."
 
 2021 Key Contributors:
-BO Bichette, Jose Ramirez, Shohei Ohtani, Whit Merrifield, Kevin Gausman, Salvador Perez, Carlos Rodon, Matt Olson, Jacob DeGrom
+Bo Bichette, Jose Ramirez, Shohei Ohtani, Whit Merrifield, Kevin Gausman, Salvador Perez, Carlos Rodon, Matt Olson, Jacob DeGrom
 
 Matt is metaphorically young in League of Dreams GM experience but he has already the highest possible success. At times, in the moment, it felt like Tripp and Kyle's strong roster construction, and their upgrades at the trade deadline, were enough to go toe-to-toe with Meet Em Greet Em. In hindsight this season belonged to Matt from the season opener and his standing as the top team was never in doubt. The man did not suffer a matchup loss until July! Best regular season record, championship. Both Elite and well-rounded in all categories. Not content with his strong start to  the season, Matt showed an aggression to protect his standing through a  series of win-now trades to hold off Tripp and Kyle's own trade upgrades (Caleb is not forgotten in the playoff race, but did not push all his chips to the middle of the table like the other three teams.) They paid off. This may cost him in the 2022 price but hey, you play to win the game. Other teams made similar end-of-season pushes but will enter the draft without the consolation of a championship. I never watched The Wire but the iconic line "You come at the King you best not miss" feels like it applies here. Matt has taken the league by storm in his first year as a GM, however he will have his work cut off for him this year as he will enter the 2022 draft missing four picks from the first ten rounds.  Despite this, he has earned the benefit of the doubt that he will still be competitive as a big reason for his success in his first year was identifying great talent in later rounds of the 2021 draft.
 
