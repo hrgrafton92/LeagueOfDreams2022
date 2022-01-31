@@ -356,6 +356,8 @@ If you made it this far reward yourself and play around with some 2021 season st
 """
 """
 # Filter 2021 Team Stats - Hitting
+
+Minimum of 100 at-bats to qualify.
 """
 
 selected_x_var = st.selectbox('What category you want the x variable to be? (Cannot be Player)', batter.columns)
@@ -380,6 +382,8 @@ fun = alt.Chart(batter_final, title = x_name+" vs "+y_name).mark_circle().encode
 st.altair_chart(fun,use_container_width=True)
 """
 # Filter 2021 Team Stats - Pitching
+
+Minimum of 50 innings pitched to qualify.
 """
 
 selected_x_var_P = st.selectbox('What category you want the x variable to be? (Cannot be Player)', pitcher.columns,key=2)
