@@ -5,7 +5,7 @@ import streamlit as st
 import altair as alt
 
 
-recap = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/recap.csv")
+recap = pd.read_csv("recap.csv")
 weekly_record = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/weekly_record.csv")
 clint2 = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/clint2.csv")
 spencer = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/spencer.csv")
