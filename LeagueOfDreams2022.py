@@ -1,15 +1,8 @@
 import pandas as pd
-import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
 import streamlit as st
-import plotly.express as px
-
-from scipy.stats import pearsonr
-from sklearn import linear_model, metrics
-from sklearn.metrics import r2_score
-from scipy import stats
+import altair as alt
 
 
 recap = pd.read_csv("C:/Users/hrgra/OneDrive/Documents/LeagueOfDreams/recap.csv")
@@ -360,7 +353,6 @@ st.pyplot()
 
 If you made it this far reward yourself and play around with some 2021 season stats. Find some interesting player outliers to circle on your draft board who may be in for a big 2022 season.
 """
-import altair as alt
 """
 # Filter 2021 Team Stats - Hitting
 """
@@ -385,7 +377,6 @@ fun = alt.Chart(batter_final, title = x_name+" vs "+y_name).mark_circle().encode
     tooltip = "Player")
 
 st.altair_chart(fun,use_container_width=True)
-import altair as alt
 """
 # Filter 2021 Team Stats - Pitching
 """
