@@ -239,11 +239,9 @@ Walker Buehler, Julio Urias, Paul Goldschmidt, Robbie Ray, Aaron Judge, Charlie 
 With respect to the other Braves fans in the league, Bob stood behind his fandom more than everyone else by drafting eight Braves players, roughly 31% of his entire roster. Don't get your hopes up this year about rostering too many of the defending champs as Bob is sure to have them circled on his draft board. Bob spent the bulk of the season in the 4-6 seed range but was not able to break through to the playoffs. He was involved at the trade deadline but did not go all-in, leaving himself some flexibility heading into this years draft. He will be missing his #2 pick, sent to Caleb in a trade for Gerrit Cole. Outside of that though Bob retains all of his own picks. Bob certainly wasn't the most active GM, with the fewest free agency acquisitions and the 2nd fewest trades made, but he was deliberate in the moves he did make. An early season trade for Paul Goldschmidt brought in a season-long fixture at the position. Free agency acquisition Robbie Ray won the Cy Young. Real life awards are a positive for your fantasy team too. The broader theme here is if something isn't broken, don't try to fix it. 
 
 You might be thinking that a 5th place outside the playoffs isn't exactly broken, but certainly shows a need for some fine-tuning. But this chart shows us that Bob was a powerhouse in the regular season. I'm genuinely surprised he didn't have a better record to show for it. He led the league outright in 4 out of 10 categories during the regular season. Only three other teams can lay claim to the top spot in any category at all last year. I think with the opportunity to compete in the post-season Bob would have been a difficult out, maybe even putting together a run alongside his fellow Braves to win the championship.
-
-The x-axes aren't the same for each graph. Don't know why but keep a sharp eye when comparing graphs.
 """
 
-bob_graph = sns.FacetGrid(bob4, col="categories", hue="highlight",col_wrap=2,sharey=False,sharex=False)
+bob_graph = sns.FacetGrid(bob4, col="categories", hue="highlight",col_wrap=2,sharey=False)
 bob_graph.map_dataframe(sns.scatterplot, x="Team", y="totals.x")
 for axes in bob_graph.axes.flat:
     _ = axes.set_xticklabels(axes.get_xticklabels(), rotation=90)
