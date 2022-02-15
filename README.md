@@ -1,6 +1,8 @@
 # LeagueOfDreams2022
 Fantasy Baseball League Season Primer for 2022. Statistical overview of 2021 season using MLB player stats and fantasy league matchup data. 
 
+https://share.streamlit.io/hrgrafton92/leagueofdreams2022/main/LeagueOfDreams2022.py
+
 Data was cleaned, joined, and transforemd in R in the 2022_Season_Primer.R file.
 
 Webapp created using Jupyter Notebook with Streamlit package.
