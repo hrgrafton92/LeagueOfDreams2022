@@ -6,19 +6,19 @@ import streamlit as st
 import altair as alt
 
 
-recap = pd.read_csv("recap.csv")
-weekly_record = pd.read_csv("weekly_record.csv")
-clint2 = pd.read_csv("clint2.csv")
-spencer = pd.read_csv("spencer.csv")
-jeff = pd.read_csv("jeff.csv")
-collin3 = pd.read_csv("collin3.csv")
-harley = pd.read_csv("harley.csv")
-bob4 = pd.read_csv("bob4.csv")
-caleb = pd.read_csv("caleb.csv")
-kyle = pd.read_csv("kyle.csv")
-tripp = pd.read_csv("tripp.csv")
-batter = pd.read_csv("batter2.csv")
-pitcher = pd.read_csv("pitcher2.csv")
+recap = pd.read_csv("Season_Primer/recap.csv")
+weekly_record = pd.read_csv("Season_Primer/weekly_record.csv")
+clint2 = pd.read_csv("Season_Primer/clint2.csv")
+spencer = pd.read_csv("Season_Primer/spencer.csv")
+jeff = pd.read_csv("Season_Primer/jeff.csv")
+collin3 = pd.read_csv("Season_Primer/collin3.csv")
+harley = pd.read_csv("Season_Primer/harley.csv")
+bob4 = pd.read_csv("Season_Primer/bob4.csv")
+caleb = pd.read_csv("Season_Primer/caleb.csv")
+kyle = pd.read_csv("Season_Primer/kyle.csv")
+tripp = pd.read_csv("Season_Primer/tripp.csv")
+batter = pd.read_csv("Season_Primer/batter2.csv")
+pitcher = pd.read_csv("Season_Primer/pitcher2.csv")
 
 # Intro text
 
