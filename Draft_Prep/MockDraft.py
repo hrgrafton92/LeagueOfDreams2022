@@ -8,11 +8,11 @@ import matplotlib.patches as mpatches
 
 
 #import projections
-hitters = pd.read_csv("hitter_projections2.csv")
+hitters = pd.read_csv("Draft_Prep/hitter_projections2.csv")
 hitters = hitters[hitters["AB"]>99]
-pitchers = pd.read_csv("pitcher_projections2.csv")
+pitchers = pd.read_csv("Draft_Prep/pitcher_projections2.csv")
 pitchers = pitchers[pitchers["IP"]>49.9]
-all = pd.read_csv("all_projections2.csv")
+all = pd.read_csv("Draft_Prep/all_projections2.csv")
 all = all.drop(all[(all.AB < 100) & (all.AB > 0)].index)
 all = all.drop(all[(all.IP < 50) & (all.IP > 0)].index)
 
